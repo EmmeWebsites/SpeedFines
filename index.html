@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <link rel="stylesheet" href="mystylesheet.css" />
+      <title> Speed assessment </title></title>
+      <script type="module" src="https://pyscript.net/releases/2023.12.1/core.js"></script>
+  </head>
+    <header>
+        <h1>Speed Fines</h1>
+    </header>
+  <body>
+
+    <body>
+    <article>
+      <p>What is the name of the person speeding?  </p>
+      <input type="text" name="speeder_name" id="speeder_name" placeholder="Name" />
+      <script type="py" src="./main.py" ></script>
+
+
+
+      <p>What is the speed limit in kmh?  </p>
+      <input type="text" name="speed_limit" id="speed_limit" placeholder="Speed Limit" />
+      <script type="py" src="./main.py" ></script>
+
+      <p>How fast was the car travelling in kmh?  </p>
+      <input type="text" name="speeders_speed" id="speeders_speed" placeholder="Speeder's speed" />
+      <script type="py" src="./main.py" ></script>
+     
+
+      <br><br><button py-click="main">Calculate fine</button>
+      <div id="output" style="color: red;"></div>
+      <br><div id="output3"></div>
+      <div id="output2"></div>
+   
+    </article>
+
+    </body>
+
+
+  </body>
+</html>
